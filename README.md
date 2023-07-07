@@ -32,9 +32,21 @@ To get started with the MET Landing Page project, follow these steps:
    cd met-landing-page
    ```
 
-3. Open the `index.html` file in your preferred web browser.
+3. Install the dependencies:
 
-That's it! You're now ready to explore the MET Landing Page.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+4. Start the application locally, run the following command:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
 ## Usage
 
