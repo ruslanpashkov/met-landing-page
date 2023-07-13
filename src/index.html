@@ -7,7 +7,7 @@
       Its collection includes more than two million works of art spanning five thousand years of world culture, from prehistory to the present and from every part of the globe.">
     <title>The MET</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/main.scss">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap">
@@ -18,7 +18,7 @@
     <link rel="icon"
           href="./images/icons/logo.svg"
           type="image/svg">
-    <script src="./scripts/main.js" defer></script>
+    <script type="module" src="./scripts/main.js" defer></script>
   </head>
 
   <body class="page__body">
@@ -566,9 +566,11 @@
                     <label>
                       <input
                         class="contact-us__input"
+                        name="name"
                         type="text"
                         maxlength="32"
                         placeholder="Name"
+                        autocomplete="given-name"
                         required
                       >
                     </label>
@@ -578,9 +580,11 @@
                     <label>
                       <input
                         class="contact-us__input"
-                        type="text"
+                        name="email"
+                        type="email"
                         maxlength="32"
                         placeholder="Email"
+                        autocomplete="email"
                         required
                       >
                     </label>
@@ -590,10 +594,12 @@
                     <label>
                       <textarea
                         class="contact-us__input contact-us__input--textarea"
+                        name="message"
                         cols="30"
                         rows="3"
                         maxlength="255"
                         placeholder="Message"
+                        autocomplete="off"
                         required
                      ></textarea>
                     </label>
