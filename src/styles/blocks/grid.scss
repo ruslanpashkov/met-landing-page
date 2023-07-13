@@ -21,7 +21,7 @@
 
       @for $start from 1 through 2 {
         @for $end from $start through 2 {
-          .grid--mobile-#{$start}-#{$end} {
+          &--#{$start}-#{$end} {
             grid-column: #{$start} / #{$end + 1};
           }
         }
