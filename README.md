@@ -13,7 +13,6 @@ https://github.com/ruslanpashkov/met-landing-page/assets/129327901/e8179fb0-2697
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
@@ -62,12 +61,6 @@ The following technologies were used in this project:
 - SCSS: Utilized as a preprocessor for CSS, providing features like variables, mixins, and nested selectors.
 - JavaScript: Implemented for creating the smooth scrolling menu functionality.
 - BEM Methodology: Followed to ensure a consistent and maintainable codebase.
-
-## Contributing
-
-Contributions to the MET Landing Page project are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on the project's [GitHub repository](https://github.com/ruslanpashkov/met-landing-page). Feel free to submit pull requests with your proposed changes.
-
-When contributing, please adhere to the existing code style, follow the BEM methodology, and ensure your changes align with the overall design and purpose of the project.
 
 ## License
 
